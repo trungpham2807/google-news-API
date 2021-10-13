@@ -78,9 +78,9 @@ function renderArticle({title, author, source, content, description,publishedAt,
 console.log(source);
 return `
 <li id=${title} class="news-container">
-<div class="image-container">
+<div class="title-container">
 <h1>${title}</h1>
-<img src="${urlToImage}">
+<img id ="image-container" src="${urlToImage}">
 </div>
 <div class ="content-container">
 <h4>${author}</h4>
@@ -102,7 +102,7 @@ fetchAsync();
 
 
 // [x] As a reader I can see a list of the 20 latest top news stories, loaded dynamically via api.
- // [ ] As a reader I can see a headline, image, writer, source, date, and body of each article.
+ // [x] As a reader I can see a headline, image, writer, source, date, and body of each article.
 // [ ] As a reader I can see a list of the 20 latest top news stories, loaded dynamically via api.
 // [ ] As a reader I can see the total number of stories currently shown.
 // [ ] As a reader I can see all the categories available.

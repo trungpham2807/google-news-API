@@ -1,3 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 li{
     list-style: none;
+}
+.news-container{
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+.content-container{
+    border: black solid 1px;
+
+}
+.title-container{
+    border: black solid 1px;
+
+}
+#image-container{
+    border: black solid 5px;
+    width: 400px;
+
 }
